@@ -7,7 +7,9 @@ class RelayStack extends Stack {
 
     // create a websocket API using AWS CDK
     new CfnApi(this, "RelayApi", {
+      name: "nawstr-api",
       protocolType: "WEBSOCKET",
+      routeSelectionExpression: "$request.body.action",
     });
   }
 }
