@@ -1,0 +1,26 @@
+{
+  "name": "nawstr",
+  "version": "1.0.0",
+  "description": "Serverless NOSTR relay on AWS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abhiShandy/nawstr.git"
+  },
+  "keywords": [
+    "nostr",
+    "serverless",
+    "aws"
+  ],
+  "author": "Abhishek Shandilya",
+  "license": "MIT",
+  "dependencies": {
+    "aws-cdk": "^2.69.0",
+    "aws-cdk-lib": "^2.69.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
